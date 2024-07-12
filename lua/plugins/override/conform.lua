@@ -4,4 +4,5 @@ return {
   config = function()
     require "configs.conform"
   end,
+  lazy = false,
 }

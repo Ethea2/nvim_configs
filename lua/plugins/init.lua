@@ -5,14 +5,19 @@ return {
   {
     import = "plugins.override.lspconfig",
   },
-
   {
-    import = "plugins.overrride.mason",
+    import = "plugins.override.mason",
   },
   {
     import = "plugins.override.treesitter",
   },
   {
     import = "plugins.override.waka",
+  },
+  -- {
+  --   import = "plugins.override.blame",
+  -- },
+  {
+    import = "plugins.override.git-blame",
   },
 }
