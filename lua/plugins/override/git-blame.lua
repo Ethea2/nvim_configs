@@ -3,6 +3,7 @@ return {
   config = function()
     require("gitblame").setup {
       enabled = true,
+      gitblame_date_format = "%x",
     }
   end,
   lazy = false,

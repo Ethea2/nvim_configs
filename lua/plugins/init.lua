@@ -20,4 +20,7 @@ return {
   {
     import = "plugins.override.git-blame",
   },
+  {
+    import = "plugins.override.alpha-nvim",
+  },
 }
