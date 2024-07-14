@@ -23,4 +23,7 @@ return {
   {
     import = "plugins.override.alpha-nvim",
   },
+  {
+    import = "plugins.override.nvim-ts-autotag",
+  },
 }
